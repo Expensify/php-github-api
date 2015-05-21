@@ -238,3 +238,11 @@ $activity = $client->api('repo')->activity('ornicar', 'php-github-api');
 ```
 
 Returns an array of commit activity group by week.
+
+### Get the milestones of a repository
+
+```php
+milestones = $client->api('repo')->milestones('ornicar', 'php-github-api');
+```
+
+Returns a list of milestones.
